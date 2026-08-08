@@ -1,0 +1,42 @@
+[
+  {
+    "chunk_id": "hierarchical_sample_001",
+    "strategy": "hierarchical",
+    "source": "sample_doc.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "text": "Mẫu nội dung thử nghiệm theo chiến lược phân cấp cấp 1 - Quy định chung."
+  },
+  {
+    "chunk_id": "hierarchical_sample_002",
+    "strategy": "hierarchical",
+    "source": "sample_doc.pdf",
+    "page_start": 1,
+    "page_end": 2,
+    "text": "Mẫu nội dung thử nghiệm theo chiến lược phân cấp cấp 2 - Phạm vi điều chỉnh và đối tượng áp dụng."
+  },
+  {
+    "chunk_id": "hierarchical_sample_003",
+    "strategy": "hierarchical",
+    "source": "sample_doc.pdf",
+    "page_start": 2,
+    "page_end": 3,
+    "text": "Mẫu nội dung thử nghiệm theo chiến lược phân cấp cấp 3 - Giải thích từ ngữ."
+  },
+  {
+    "chunk_id": "semantic_sample_001",
+    "strategy": "semantic",
+    "source": "sample_doc.pdf",
+    "page_start": 3,
+    "page_end": 3,
+    "text": "Mẫu nội dung thử nghiệm theo chiến lược ngữ nghĩa về nguyên tắc cho vay."
+  },
+  {
+    "chunk_id": "fixed_sample_001",
+    "strategy": "fixed-size",
+    "source": "sample_doc.pdf",
+    "page_start": 4,
+    "page_end": 4,
+    "text": "Mẫu nội dung thử nghiệm theo chiến lược kích thước cố định."
+  }
+]
