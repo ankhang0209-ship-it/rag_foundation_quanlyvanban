@@ -1,4 +1,5 @@
 # RAG Foundation - Buổi 06
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/65d5211d-3add-4f91-9d9b-614b91dcdf84" />
 
 Dự án demo phục vụ Workshop Buổi 06.
 
