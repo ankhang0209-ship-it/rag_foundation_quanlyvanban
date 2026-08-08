@@ -1,4 +1,5 @@
 # HƯỚNG DẪN VÀ THUYẾT MINH KIẾN TRÚC ADVANCED HYBRID RAG ENGINE — BUỔI 08
+<img width="946" height="467" alt="image" src="https://github.com/user-attachments/assets/60bc91cb-4cce-48f6-aa80-aa94564c589d" />
 
 Hệ thống **Advanced Hybrid RAG Engine (Buổi 08)** kết hợp đa nhánh truy xuất từ vựng (BM25 Lexical Keyword Search), tìm kiếm ngữ nghĩa vector (Gemini Embeddings + ChromaDB), thuật toán hợp nhất thứ hạng Reciprocal Rank Fusion (RRF) và mô hình xếp hạng lại Cross-Encoder (`BAAI/bge-reranker-v2-m3`).
 
