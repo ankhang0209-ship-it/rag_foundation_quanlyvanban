@@ -1,0 +1,47 @@
+[
+  {
+    "question_id": "Q01",
+    "question": "Điều 8 quy định những nhu cầu vốn nào không được cho vay?",
+    "question_type": "exact",
+    "relevant_child_ids": ["hierarchical_TT_39_2016_NHNN_009"],
+    "relevant_parent_ids": ["parent_TT_39_2016_NHNN_Điều_8._Những_nhu_cầu_vốn_không_được_cho_vay_w1"],
+    "needs_human_review": true,
+    "notes": "Câu hỏi tra cứu đích danh Điều 8 Thông tư 39/2016/TT-NHNN."
+  },
+  {
+    "question_id": "Q02",
+    "question": "Khách hàng cần đáp ứng những yêu cầu gì để được tổ chức tín dụng xem xét cho vay?",
+    "question_type": "paraphrase",
+    "relevant_child_ids": ["hierarchical_TT_39_2016_NHNN_008"],
+    "relevant_parent_ids": ["parent_TT_39_2016_NHNN_Điều_7._Điều_kiện_vay_vốn_w1"],
+    "needs_human_review": true,
+    "notes": "Diễn đạt lại câu hỏi về Điều kiện vay vốn tại Điều 7 Thông tư 39/2016/TT-NHNN."
+  },
+  {
+    "question_id": "Q03",
+    "question": "Điều kiện vay vốn và những nhu cầu vốn không được cho vay được quy định như thế nào?",
+    "question_type": "multi_aspect",
+    "relevant_child_ids": ["hierarchical_TT_39_2016_NHNN_008", "hierarchical_TT_39_2016_NHNN_009"],
+    "relevant_parent_ids": ["parent_TT_39_2016_NHNN_Điều_7._Điều_kiện_vay_vốn_w1", "parent_TT_39_2016_NHNN_Điều_8._Những_nhu_cầu_vốn_không_được_cho_vay_w1"],
+    "needs_human_review": true,
+    "notes": "Câu hỏi nhiều khía cạnh bao gồm cả Điều 7 và Điều 8 Thông tư 39/2016/TT-NHNN."
+  },
+  {
+    "question_id": "Q04",
+    "question": "Quy định về cơ cấu lại thời hạn trả nợ gồm điều kiện, thời gian và trách nhiệm nào?",
+    "question_type": "hierarchy_context",
+    "relevant_child_ids": ["hierarchical_TT_02_2023_NHNN_005", "hierarchical_TT_02_2023_NHNN_006"],
+    "relevant_parent_ids": ["parent_TT_02_2023_NHNN_Điều_4._Cơ_cấu_lại_thời_hạn_trả_nợ_w1"],
+    "needs_human_review": true,
+    "notes": "Câu hỏi về quy định cơ cấu lại thời hạn trả nợ tại Thông tư 02/2023/TT-NHNN."
+  },
+  {
+    "question_id": "Q05",
+    "question": "Lãi suất tiết kiệm cao nhất trên thị trường hôm nay là bao nhiêu?",
+    "question_type": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": true,
+    "notes": "Câu hỏi nằm ngoài phạm vi văn bản quy phạm pháp luật đã nạp."
+  }
+]

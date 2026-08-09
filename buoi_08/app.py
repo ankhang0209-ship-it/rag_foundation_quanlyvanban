@@ -376,7 +376,28 @@ with tab4:
             with open(report_path, "r", encoding="utf-8") as f:
                 report_data = json.load(f)
 
-            st.json(report_data)
+            st.success(f"Đã tìm thấy tệp báo cáo: `{selected_report}` (Strategy: `{report_data.get('strategy')}`, K: `{report_data.get('k')}`)")
+
+            metrics_by_mode = report_data.get("metrics_by_mode", {})
+            if metrics_by_mode:
+                table_rows = []
+                for m_name, vals in metrics_by_mode.items():
+                    table_rows.append({
+                        "Retrieval Mode": m_name,
+                        "Recall@K": round(vals.get("recall_at_k", 0.0), 4),
+                        "MRR@K": round(vals.get("mrr_at_k", 0.0), 4),
+                        "nDCG@K": round(vals.get("ndcg_at_k", 0.0), 4),
+                        "latency_mean_ms": round(vals.get("mean_latency_ms", 0.0), 2),
+                        "latency_p50_ms": round(vals.get("p50_latency_ms", 0.0), 2),
+                        "Failures": vals.get("failures_count", 0),
+                    })
+                df_report = pd.DataFrame(table_rows)
+                st.markdown("#### 📊 Bảng Đánh giá Tổng hợp theo Mode")
+                st.dataframe(df_report, use_container_width=True, hide_index=True)
+
+            with st.expander("📄 Xem chi tiết tệp JSON Báo cáo", expanded=False):
+                st.json(report_data)
         except Exception as e:
+            st.error(f"Lỗi đọc tệp báo cáo đánh giá: {e}")
             st.error(f"Lỗi khi đọc tệp báo cáo {selected_report}: {e}")
 

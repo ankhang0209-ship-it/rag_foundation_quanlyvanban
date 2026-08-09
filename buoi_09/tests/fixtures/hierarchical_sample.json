@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_id": "hierarchical_sample_001",
+    "strategy": "hierarchical",
+    "source": "TT_sample.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "text": "## Điều 1. Phạm vi điều chỉnh\n\nThông tư này quy định về việc cho vay của tổ chức tín dụng."
+  },
+  {
+    "chunk_id": "hierarchical_sample_002",
+    "strategy": "hierarchical",
+    "source": "TT_sample.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "text": "## Điều 2. Đối tượng áp dụng\n\n1. Tổ chức tín dụng.\n2. Khách hàng vay vốn."
+  }
+]

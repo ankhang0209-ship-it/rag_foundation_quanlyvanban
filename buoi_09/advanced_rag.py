@@ -1,4 +1,7 @@
 """
+Snapshot baseline từ Buổi 08 cho Buổi 09.
+"""
+"""
 Advanced Hybrid RAG Engine - Buổi 08.
 Kết hợp BM25 Keyword Search, Gemini Semantic Retrieval, Reciprocal Rank Fusion (RRF) và Cross-Encoder Reranking.
 """

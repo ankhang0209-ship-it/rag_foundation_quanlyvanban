@@ -2,56 +2,56 @@
   {
     "query_id": "Q01",
     "question": "Điều kiện để tổ chức tín dụng cơ cấu lại thời hạn trả nợ gốc và lãi vay theo Thông tư 02 là gì?",
-    "relevant_chunk_ids": ["fixed_adv_001", "fixed_adv_002"],
+    "relevant_chunk_ids": ["hierarchical_TT_02_2023_NHNN_007", "fixed_adv_001", "fixed_adv_002"],
     "scope": "in_scope",
     "needs_human_review": true
   },
   {
     "query_id": "Q02",
     "question": "Thời hạn cơ cấu lại thời hạn trả nợ tối đa là bao nhiêu tháng?",
-    "relevant_chunk_ids": ["fixed_adv_002"],
+    "relevant_chunk_ids": ["hierarchical_TT_02_2023_NHNN_007", "fixed_adv_002"],
     "scope": "in_scope",
     "needs_human_review": true
   },
   {
     "query_id": "Q03",
     "question": "Quy định về giữ nguyên nhóm nợ đối với các khoản nợ được cơ cấu lại?",
-    "relevant_chunk_ids": ["fixed_adv_003"],
+    "relevant_chunk_ids": ["hierarchical_TT_02_2023_NHNN_008", "fixed_adv_003"],
     "scope": "in_scope",
     "needs_human_review": true
   },
   {
     "query_id": "Q04",
     "question": "Ngân hàng thương mại có được cho vay để mua cổ phần công ty chưa niêm yết không?",
-    "relevant_chunk_ids": ["fixed_adv_004"],
+    "relevant_chunk_ids": ["hierarchical_TT_39_2016_NHNN_011", "fixed_adv_004"],
     "scope": "in_scope",
     "needs_human_review": true
   },
   {
     "query_id": "Q05",
     "question": "Giải pháp hỗ trợ hoãn hoàn trả tiền gốc cho doanh nghiệp gặp rủi ro thanh khoản được thực hiện ra sao?",
-    "relevant_chunk_ids": ["semantic_adv_005", "semantic_adv_006"],
+    "relevant_chunk_ids": ["hierarchical_TT_02_2023_NHNN_007", "semantic_adv_005", "semantic_adv_006"],
     "scope": "in_scope",
     "needs_human_review": true
   },
   {
     "query_id": "Q06",
     "question": "Chính sách gia hạn thời điểm trả nợ vay cho khách hàng chịu thiệt hại nguồn thu?",
-    "relevant_chunk_ids": ["semantic_adv_005", "semantic_adv_006"],
+    "relevant_chunk_ids": ["hierarchical_TT_02_2023_NHNN_007", "semantic_adv_005", "semantic_adv_006"],
     "scope": "in_scope",
     "needs_human_review": true
   },
   {
     "query_id": "Q07",
     "question": "Mức lãi suất cho vay tối đa do ai quy định đối với các lĩnh vực ưu tiên?",
-    "relevant_chunk_ids": ["hierarchical_adv_007"],
+    "relevant_chunk_ids": ["hierarchical_TT_39_2016_NHNN_015", "hierarchical_adv_007"],
     "scope": "in_scope",
     "needs_human_review": true
   },
   {
     "query_id": "Q08",
     "question": "Thủ tục kê khai thuế giá trị gia tăng và thuế thu nhập doanh nghiệp áp dụng theo quy định nào?",
-    "relevant_chunk_ids": ["hierarchical_adv_008"],
+    "relevant_chunk_ids": [],
     "scope": "out_of_scope",
     "needs_human_review": true
   }
