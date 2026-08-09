@@ -1,4 +1,5 @@
 # RAG Foundation — Buổi 09: Multi-Query Expansion & Parent–Child Retrieval Engine
+<img width="900" height="464" alt="image" src="https://github.com/user-attachments/assets/77df35e4-4fe1-4bd7-b19c-924e2d13d1bd" />
 
 Dự án RAG Nâng Cao dành cho văn bản quy phạm pháp luật ngân hàng Việt Nam, tích hợp **Mở rộng truy vấn Đa nhánh (Multi-Query Expansion)**, **Dung hợp 2 Tầng Reciprocal Rank Fusion (Cross-Query RRF)** và **Kiến trúc Mở rộng Ngữ cảnh Parent–Child (Retrieve Child, Return Parent)**.
 
