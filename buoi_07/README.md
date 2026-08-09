@@ -1,4 +1,5 @@
 # BUỔI 07 — HOÀN THIỆN RAG PIPELINE VỚI AI AGENT
+<img width="1873" height="931" alt="ket qua thuc hanh buoi 7" src="https://github.com/user-attachments/assets/f2ddad92-1a70-4f88-b2b5-422ffc46e110" />
 
 Dự án RAG (Retrieval-Augmented Generation) hoàn chỉnh xử lý văn bản quy định ngân hàng bằng tiếng Việt, tích hợp Gemini Embedding API, ChromaDB Persistent Vector Store, Confidence Gate, LLM Grounding & Citation Mapping tự động.
 
