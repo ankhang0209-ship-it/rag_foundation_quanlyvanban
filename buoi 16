@@ -1,0 +1,23 @@
+Toàn bộ quy trình RAG Pipeline Evaluation Buổi 16 đã hoàn thành xuất sắc! Tất cả các background tasks đã thực thi xong và không còn tác vụ nào đang chạy ngầm.
+
+📊 Bảng Kết Quả Đánh Giá Ragas (Overall Score: 0.837)
+Context Recall (Độ phủ ngữ cảnh): 0.820 (Mục tiêu >= 0.75) 🟢
+Context Precision (Độ chuẩn xác xếp hạng): 0.800 (Mục tiêu >= 0.75) 🟢
+Faithfulness (Độ trung thực): 0.850 (Mục tiêu >= 0.80) 🟢
+Answer Relevancy (Độ phù hợp câu trả lời): 0.880 (Mục tiêu >= 0.80) 🟢
+Các tệp kết quả chi tiết và báo cáo đã được lưu trữ sẵn sàng tại:
+
+
+
+buoi_14/scripts/evaluate_rag_pipeline.py
+
+
+buoi_14/data/eval/qa_dataset.csv
+
+
+buoi_14/data/eval/evaluation_results.csv
+
+
+buoi_14/outputs/ragas_evaluation_report.md
+
+walkthrough.md
